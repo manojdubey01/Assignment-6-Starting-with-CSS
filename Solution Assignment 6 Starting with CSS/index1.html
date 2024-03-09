@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline, Internal, and External Styles</title>
+
+
+    <link rel="stylesheet" href="style1.css">
+
+    <style>
+        .internal{
+            color: green;
+        }
+
+        .inline_internal{
+            color: yellowgreen;
+        }
+
+        .internal_ext{
+            color: blueviolet;
+
+        }
+
+        .inline_internal_ext{
+            color: blue;
+        }
+    </style>
+
+
+</head>
+<body>
+
+    <h1>Inline, Internal and External Styles</h1>
+
+    <div style="color: red;">Inline</div>
+    <div class="internal">Internal</div>
+    <div class="external">External</div>
+    <div style="color: blue;" class="inline_internal">Inline + Internal</div>
+    <div class="internal_ext int_external " >Internal + External</div>
+    <div style="color: grey;" class="inline_internal_ext inline_inter_external">Inline + Internal + External</div>
+
+
+</body>
+</html>

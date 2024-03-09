@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 6</title>
+    
+    <style>
+        .firstName{
+            background-color: red;
+        }
+        .lastName{
+            background-color: green;
+        }
+
+        .email{
+            background-color: yellow;
+        }
+
+        #terms: checked{
+    /* This is a property used to color check box in checked state*/
+            accent-color: blue;
+        }
+
+        button{
+            opacity: 50%;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="">
+        <label for="firstName">First Name:</label>
+        <input type="text" class="firstName" name="firstName" id="firstName" placeholder="First Name" required minlength="3" max="20"> <br><br>
+
+        <label for="lastName">Last Name:</label>
+        <input type="text" class="lastName" name="lastName" id="lastName" placeholder="Last Name" required minlength="3" max="20"><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" class="email" name="email" id="email" placeholder="abcd@gmail.com" required minlength="3" max="20"> <br><br>
+
+        <label for="password1">Password:</label>
+        <input type="password" class="password1" name="password1" id="password1" placeholder="*********" required minlength="3" max="20"> <br><br>
+
+        <label for="password2">First Name:</label>
+        <input type="password" class="password2" name="password2" id="password2" placeholder="*********" required minlength="3" max="20"> <br><br>
+
+        <label for="age">Age:</label>
+        <input type="number" class="age" name="age" id="age" placeholder="35" required minlength="0" max="150"> <br><br>
+
+        <label for="all">Gender</label>
+        <input type="radio" value="male" name="gender" id="male" checked=""> <Label>Male</Label>
+        <input type="radio" value="female" name="gender" id="female"> <Label>Female</Label>
+        <input type="radio" value="other" name="gender" id="other"> <Label>Other</Label><br><br>
+
+        <Label for="terms" >T&C</Label>
+        <input type="checkbox" name="terms" id="terms" required="" class="terms"> I Accept Terms & Conditions. <br><br>
+        <button type="submit">Register</button>
+
+    </form>
+    
+</body>
+</html>
